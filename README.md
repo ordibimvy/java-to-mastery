@@ -39,5 +39,4 @@ Your total is $5.0
 - **No input validation.** Typing letters at the price or quantity prompt throws an `InputMismatchException` and crashes the program.
 - **Money is stored as a `double`.** Totals can print with floating-point noise (`$5.0`, or `$29.970000000000003`). Formatting with `System.out.printf("%.2f", total)` fixes the display; `BigDecimal` fixes the underlying math.
 - **Pluralization is faked** with `"/s"` instead of checking whether `quantity > 1`.
-- Typo in the first prompt: "ot buy" should be "to buy".
 - One item only — no loop, no running cart.
