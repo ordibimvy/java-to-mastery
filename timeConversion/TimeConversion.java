@@ -7,7 +7,6 @@
  * and then prints out the results. 
  */
 
-package lab2;
 import java.util.Scanner;
 
 public class TimeConversion {
